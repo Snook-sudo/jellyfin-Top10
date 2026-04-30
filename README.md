@@ -5,14 +5,21 @@ Add a top 10 netflix style movie screen on jellyfin
 
 <h2>Install Instructions:</h2>
 
-1. Install the JS Injector plugin - https://github.com/n00bcodr/Jellyfin-JavaScript-Injector
+1. Install the Top 10 plugin: https://github.com/johnpc/jellyfin-plugin-top-ten
 
-2. Within Plugins > JS Injector, add a script, name it "Top 10" or similar for reference, then paste the raw code of the jellyfin-top10.js file in this project, then save.
+2. Install the JS Injector plugin - https://github.com/n00bcodr/Jellyfin-JavaScript-Injector
 
-3. Hard refresh your browser (ctrl + f5, shift + refresh, or clear site data) and test!
+3. Within Plugins > JS Injector, add a script, name it "Top 10" or similar for reference, then paste the raw code of the jellyfin-top10.js file in this project, then save.
 
-4. <h2>Info:</h2>
-To make the script work, create a collection with "Smartlist" plugin called Top 10, the collection must be created by play count and must include 10 films, then use the "Collection section" plugin and add the new top 10 collection section. then go to the "Home screen section" plugin and activate the collection, for the numbers i added a js code via js injector. Below I put a screenshot of the "Collection Sections" plugin settings
+4. Hard refresh your browser (ctrl + f5, shift + refresh, or clear site data) and test!
 
-<img width="829" height="541" alt="Screenshot 2026-04-19 alle 15 23 42" src="https://github.com/user-attachments/assets/2253d918-4606-4e66-b2be-0e80a9267f95" />
+
+<h2>New Web version:</h2>
+
+ <img width="1561" height="382" alt="Screenshot 2026-04-30 alle 02 13 29" src="https://github.com/user-attachments/assets/513010e1-0429-4d7e-9cf6-acb6811d9860" />
+
+This large number script is only available for the web version. In my JF instance i installed two separate scripts one for the web version and one for the mobile version in order to have two separate effects
+
+1. Web version:
+2. Mobile version:
 
