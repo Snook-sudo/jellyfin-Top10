@@ -21,5 +21,5 @@ Add a top 10 netflix style movie screen on jellyfin
 This large number script is only available for the web version. In my JF instance i installed two separate scripts one for the web version and one for the mobile version in order to have two separate effects
 
 1. Web version:[jellyfin-top10-Web.js](https://github.com/Snook-sudo/jellyfin-Top10/blob/main/jellyfin-top10-Web.js)
-2. Mobile version:
+2. Mobile version: [jellyfin-top10-Mobile.js](https://github.com/Snook-sudo/jellyfin-Top10/blob/main/jellyfin-top10-Web-Mobile.js)
 
